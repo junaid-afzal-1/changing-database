@@ -866,4 +866,6 @@ ip is:
 ip is:
 127.0.0.1/cacheTest  {}   /cacheTest
 ip is:
+127.0.0.1/cacheTest  {}   /cacheTest
+ip is:
 127.0.0.1

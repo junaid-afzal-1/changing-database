@@ -3542,3 +3542,4 @@ Traceback (most recent call last):
   File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
     raise response
 redis.exceptions.ResponseError: wrong number of arguments for 'set' command
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changing_DB_env\Lib\site-packages\asgiref\__init__.py changed, reloading.
