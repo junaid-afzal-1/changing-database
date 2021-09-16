@@ -1,0 +1,21 @@
+/DBTest/temp-all/
+/admin/
+/DBTest/
+/admin/  /admin/
+/DBTest/  /DBTest/
+/DBTest/welcome/  /DBTest/welcome/
+/admin/  {}   /admin/
+/DBTest/welcome/  {}   /DBTest/welcome/
+/DBTest/welcome/1  {}   /DBTest/welcome/1
+/DBTest/welcome/  {}   /DBTest/welcome/
+/admin/auth/user/  {}   /admin/auth/user/
+/admin/jsi18n/  {}   /admin/jsi18n/
+/admin/auth/user/add/  {}   /admin/auth/user/add/
+/admin/jsi18n/  {}   /admin/jsi18n/
+/admin/DBTest/temp/  {}   /admin/DBTest/temp/
+/admin/jsi18n/  {}   /admin/jsi18n/
+/admin/jsi18n/  {}   /admin/jsi18n/
+/admin/DBTest/temp/add/  {}   /admin/DBTest/temp/add/
+/admin/DBTest/temp/add/  {}   /admin/DBTest/temp/add/
+/admin/DBTest/temp/  {}   /admin/DBTest/temp/
+/admin/jsi18n/  {}   /admin/jsi18n/
