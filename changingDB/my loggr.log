@@ -3250,3 +3250,295 @@ INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\cha
 INFO:root:/cacheTest  {}   /cacheTest
 INFO:root:127.0.0.1
 INFO:root:request count 1
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\cacheTest\views.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 20, in cache_test
+    return HttpResponse(str(radis_cache.all()))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\utils\connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+AttributeError: 'RedisCache' object has no attribute 'all'
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\cacheTest\views.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\changingDB\settings.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\changingDB\settings.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\cacheTest\views.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ResponseError: wrong number of arguments for 'set' command
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 13, in cache_test
+    radis_cache.set(ip,'2',timeout=22)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'set' command
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\changingDB\settings.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ResponseError: wrong number of arguments for 'set' command
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 13, in cache_test
+    radis_cache.set(ip,'2',timeout=22)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'set' command
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ResponseError: wrong number of arguments for 'set' command
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 13, in cache_test
+    radis_cache.set(ip,'2',timeout=22)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'set' command
+INFO:django.utils.autoreload:F:\My Projects\Djano Practice\changing database\changingDB\cacheTest\views.py changed, reloading.
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ResponseError: wrong number of arguments for 'set' command
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 13, in cache_test
+    cache.set(ip,'2',timeout=22)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'set' command
+INFO:root:/cacheTest  {}   /cacheTest
+INFO:root:127.0.0.1
+INFO:root:request count 1
+ERROR:django.request:Internal Server Error: /cacheTest
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ResponseError: wrong number of arguments for 'set' command
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\My Projects\Djano Practice\changing database\changingdb\cacheTest\views.py", line 13, in cache_test
+    cache.set(ip,'2',timeout=22)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "F:\My Projects\Djano Practice\changing database\changing_db_env\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: wrong number of arguments for 'set' command
